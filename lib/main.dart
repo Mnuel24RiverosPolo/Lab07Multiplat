@@ -1,3 +1,4 @@
+import 'package:fl_components_student/themes/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'router/app_routes.dart';
 
@@ -14,7 +15,9 @@ class MyApp extends StatelessWidget {
       //home: const ListView2Screen(),
       initialRoute: AppRoutes.initialRoute,
       routes:AppRoutes.getAppRoutes(),
-      onGenerateRoute: AppRoutes.onGenerateRoute
+      onGenerateRoute: AppRoutes.onGenerateRoute,
+      theme: AppTheme.lightTheme
+      
     );
   }
 }
