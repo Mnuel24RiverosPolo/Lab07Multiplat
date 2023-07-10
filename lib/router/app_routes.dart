@@ -1,4 +1,5 @@
 
+import 'package:fl_components_student/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import '../models/models.dart';
 import '../screens/screens.dart';
@@ -14,6 +15,9 @@ class AppRoutes{
     MenuOption(route: 'listview2', icon: Icons.list_sharp, name: 'ListView Version 2', screen: const ListView2Screen()),
     MenuOption(route: 'card', icon: Icons.card_membership_sharp, name: 'Card Screen', screen: const CardScreen()),
     MenuOption(route: 'alert', icon: Icons.add_alert_sharp, name: 'Alert Screen', screen: const AlertScreen()), 
+    MenuOption(route: 'avatar', icon: Icons.supervised_user_circle_rounded, name: 'Avstar Screen', screen: const AvatarScreen()), 
+    MenuOption(route: 'animated', icon: Icons.play_lesson, name: 'Animated Screen', screen: const AnimatedScreen()), 
+    MenuOption(route: 'input', icon: Icons.format_indent_decrease_outlined, name: 'Input Screen', screen: const InputScreen()), 
     
   ];
 

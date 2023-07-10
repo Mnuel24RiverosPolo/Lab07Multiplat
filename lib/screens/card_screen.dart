@@ -19,15 +19,17 @@ class CardScreen extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
         child: ListView(
           children: const [
-            
-            
-            CustomCardType5(imagenURL: 'https://acortar.link/t1TR8J'),
+            CustomCardType1(),
+            CustomCardType2(),
+            CustomCardType3(),
+            CustomCardType4(),
+            CustomCardType5(imagenURL: 'https://acortar.link/PAysCU'),
              SizedBox(height: 10,),
-            CustomCardType5(imagenURL: 'https://acortar.link/65uBwq'),
+            CustomCardType5(imagenURL: 'https://acortar.link/K1NaKD'),
              SizedBox(height: 10,),
             CustomCardType5(
-              descripcion: 'Tansformers: El despertar de las bestias1',
-              imagenURL: 'https://acortar.link/AIV5vl'),
+              imagenURL: 'https://acortar.link/NjTLml',
+              descripcion: 'Tansformers: El despertar de las bestias',),
             SizedBox(height: 10,),
            
           ],

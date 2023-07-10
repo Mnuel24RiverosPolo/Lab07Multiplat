@@ -6,7 +6,7 @@ const HomeScreen({Key? key}) : super(key: key);
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Componentes de Flutter! Manu '),
+        title: const Text('Componentes de Flutter! M C'),
         elevation: 0,
         backgroundColor: const Color.fromARGB(255, 221, 30, 9),
         ),

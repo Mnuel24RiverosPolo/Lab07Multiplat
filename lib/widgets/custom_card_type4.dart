@@ -15,7 +15,7 @@ class CustomCardType4 extends StatelessWidget {
       child: Column(
         children: [
           Image(
-            image: NetworkImage('https://pics.filmaffinity.com/the_flash-205686824-large.jpg')
+            image: NetworkImage('https://acortar.link/TJBFYk')
           )
         ],
       ),

@@ -23,7 +23,7 @@ class CustomCardType5 extends StatelessWidget {
       child: Column(
         children: [
            FadeInImage(
-            placeholder: const AssetImage('assets/gif.gif'),
+            placeholder: const AssetImage('assets/gifup.gif'),
             image: NetworkImage(imagenURL),
             width:  double.infinity,
             height: 250,
